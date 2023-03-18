@@ -365,60 +365,46 @@ var firstp;
 var playfield;
 
 const unrevieled = new Image();
-
-unrevieled.src = '/images/unrevieled.png';
+unrevieled.src = '/imgs/unrevieled.png';
 
 const flag = new Image();
-
-flag.src = '/images/flag.png';
+flag.src = '/imgs/flag.png';
 
 const exploded = new Image();
-
-exploded.src = '/images/exploded.png';
+exploded.src = '/imgs/exploded.png';
 
 const mine = new Image();
-
-mine.src = '/images/mine.png';
+mine.src = '/imgs/mine.png';
 
 const flagmissplaced = new Image();
-
-flagmissplaced.src = '/images/flagmissplaced.png';
+flagmissplaced.src = '/imgs/flagmissplaced.png';
 
 const _0 = new Image();
-
-_0.src = '/images/_0.png';
+_0.src = '/imgs/p0.png';
 
 var _1 = new Image();
-
-_1.src = '/images/_1.png';
+_1.src = '/imgs/p1.png';
 
 const _2 = new Image();
-
-_2.src = '/images/_2.png';
+_2.src = '/imgs/p2.png';
 
 const _3 = new Image();
-
-_3.src = '/images/_3.png';
+_3.src = '/imgs/p3.png';
 
 const _4 = new Image();
-
-_4.src = '/images/_4.png';
+_4.src = '/imgs/p4.png';
 
 const _5 = new Image();
-
-_5.src = '/images/_5.png';
+_5.src = '/imgs/p5.png';
 
 const _6 = new Image();
-
-_6.src = '/images/_6.png';
+_6.src = '/imgs/p6.png';
 
 const _7 = new Image();
-
-_7.src = '/images/_7.png';
+_7.src = '/imgs/p7.png';
 
 const _8 = new Image();
-
-_8.src = '/images/_8.png';
+_8.src = '/imgs/p8.png';
 
 window.onload = function() { start(); }
 
