@@ -214,7 +214,7 @@ function visual(x,y) {
 	if (playfield.matrix[x][y].visual!='uncovered'){
 		if(playfield.matrix[x][y].visual=='flag'){
 			var unrevieled = new Image();
-			unrevieled.src = '/images/unrevieled.png';
+			unrevieled.src = './images/unrevieled.png';
 			unrevieled.onload=function(){
 			ctx.drawImage(unrevieled,x*pwidth,y*pheight,pwidth,pheight);}
 			playfield.matrix[x][y].visual='none';
@@ -222,7 +222,7 @@ function visual(x,y) {
 			document.getElementById('mines').innerHTML='mines:'+flags
 		}else{
 			var flag = new Image();
-			flag.src = '/images/flag.png';
+			flag.src = './images/flag.png';
 			flag.onload=function(){
 			ctx.drawImage(flag,x*pwidth,y*pheight,pwidth,pheight);}
 			playfield.matrix[x][y].visual='flag';
@@ -276,7 +276,7 @@ function showall(){
 
 function empty(x,y){
 	var unrevieled = new Image();
-			unrevieled.src = '/images/unrevieled.png';
+			unrevieled.src = './images/unrevieled.png';
 			unrevieled.onload=function(){
 			ctx.drawImage(unrevieled,x*pwidth,y*pheight,pwidth,pheight);}
 }
@@ -290,7 +290,7 @@ function drawp(x,y){
 		case -1://mine
 		if (!death) {
 				var exploded = new Image();
-			exploded.src = '/images/exploded.png';
+			exploded.src = './images/exploded.png';
 			exploded.onload=function(){
 			ctx.drawImage(exploded,x*pwidth,y*pheight,pwidth,pheight);
 			}
@@ -300,7 +300,7 @@ function drawp(x,y){
 			
 		}else{
 			var mine = new Image();
-			mine.src = '/images/mine.png';
+			mine.src = './images/mine.png';
 			mine.onload=function(){
 			ctx.drawImage(mine,x*pwidth,y*pheight,pwidth,pheight);
 			}
@@ -311,7 +311,7 @@ function drawp(x,y){
 			
 		case 0://0
 			var _0 = new Image();
-			_0.src = '/images/_0.png';
+			_0.src = './images/_0.png';
 			_0.onload=function(){
 			ctx.drawImage(_0,x*pwidth,y*pheight,pwidth,pheight);}
 			
@@ -325,56 +325,56 @@ function drawp(x,y){
 			
 		case 1://1
 			var _1 = new Image();
-			_1.src = '/images/_1.png';
+			_1.src = './images/_1.png';
 			_1.onload=function(){
 			ctx.drawImage(_1,x*pwidth,y*pheight,pwidth,pheight);}
 			break;
 			
 		case 2://2
 			var _2 = new Image();
-			_2.src = '/images/_2.png';
+			_2.src = './images/_2.png';
 			_2.onload=function(){
 			ctx.drawImage(_2,x*pwidth,y*pheight,pwidth,pheight);}
 			break;
 			
 		case 3://3
 			var _3 = new Image();
-			_3.src = '/images/_3.png';
+			_3.src = './images/_3.png';
 			_3.onload=function(){
 			ctx.drawImage(_3,x*pwidth,y*pheight,pwidth,pheight);}
 			break;
 			
 		case 4://4
 			var _4 = new Image();
-			_4.src = '/images/_4.png';
+			_4.src = './images/_4.png';
 			_4.onload=function(){
 			ctx.drawImage(_4,x*pwidth,y*pheight,pwidth,pheight);}
 			break;
 			
 		case 5://5
 			var _5 = new Image();
-			_5.src = '/images/_5.png';
+			_5.src = './images/_5.png';
 			_5.onload=function(){
 			ctx.drawImage(_5,x*pwidth,y*pheight,pwidth,pheight);}
 			break;
 			
 		case 6://6
 			var _6 = new Image();
-			_6.src = '/images/_6.png';
+			_6.src = './images/_6.png';
 			_6.onload=function(){
 			ctx.drawImage(_6,x*pwidth,y*pheight,pwidth,pheight);}
 			break;
 			
 			case 7://7
 			var _7 = new Image();
-			_7.src = '/images/_7.png';
+			_7.src = './images/_7.png';
 			_7.onload=function(){
 			ctx.drawImage(_7,x*pwidth,y*pheight,pwidth,pheight);}
 			break;
 			
 		case 8://8
 			var _8 = new Image();
-			_8.src = '/images/_8.png';
+			_8.src = './images/_8.png';
 			_8.onload=function(){
 			ctx.drawImage(_8,x*pwidth,y*pheight,pwidth,pheight);}
 			break;
@@ -390,7 +390,7 @@ function drawp(x,y){
 	}
 	if (playfield.matrix[x][y].visual=='flag'&&playfield.matrix[x][y].mine==false) {
 		var flagmissplaced = new Image();
-			flagmissplaced.src = '/images/flagmissplaced.png';
+			flagmissplaced.src = './images/flagmissplaced.png';
 			flagmissplaced.onload=function(){
 			ctx.drawImage(flagmissplaced,x*pwidth,y*pheight,pwidth,pheight);
 			}
