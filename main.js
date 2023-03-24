@@ -1,8 +1,8 @@
 //code by stanislav chlup
 
-var width = 10;
-var height = 10;
-var minecount = 50;
+var width = 20;
+var height = 20;
+var minecount = 80;
 
 
 var game;
