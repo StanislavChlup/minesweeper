@@ -1,0 +1,63 @@
+/* style by stanislav chlup */
+
+body {
+	font-size: 15pt;
+	user-select: none;
+	margin: 0;
+	background: #111122;
+}
+
+canvas {
+	border: none;
+	border-color: white;
+	position: absolute;
+	top: 50px;
+	left: 5px;
+}
+
+#mines {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	color: #aacccc;
+}
+
+#mode {
+	position: absolute;
+	top: 460px;
+	left: 355px;
+	height: 50px;
+	width: 50px;
+	background: #9999aa;
+	padding: 0px;
+	font-size: 30px;
+}
+
+#r {
+	position: absolute;
+	background: #9999aa;
+	top: 0px;
+	left: 182px;
+	height: 45px;
+	width: 45px;
+	padding: 0px;
+	font-size: 30px;
+}
+
+#p {
+	position: absolute;
+	top: 550px;
+	margin: 0 auto;
+	color: lawngreen;
+	font-size: 50px;
+}
+
+#show {
+	position: absolute;
+	top: 460px;
+	left: 200px;
+	margin-left: -50px;
+	width: 100px;
+	height: 50px;
+	background: sandybrown;
+}
