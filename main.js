@@ -203,7 +203,7 @@ var firstp;
 var playfield;
 
 const unrevieled = new Image();
-unrevieled.src = '.imgs/unrevieled.png';
+unrevieled.src = './imgs/unrevieled.png';
 const flag = new Image();
 flag.src = './imgs/flag.png';
 const exploded = new Image();
