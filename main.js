@@ -214,23 +214,23 @@ const flagmissplaced = new Image();
 flagmissplaced.src = '/images/flagmissplaced.png';
 
 const _0 = new Image();
-_0.src = '/images/p0.png';
+_0.src = './images/p0.png';
 var _1 = new Image();
-_1.src = '/images/p1.png';
+_1.src = './images/p1.png';
 const _2 = new Image();
-_2.src = '/images/p2.png';
+_2.src = './images/p2.png';
 const _3 = new Image();
-_3.src = '/images/p3.png';
+_3.src = './images/p3.png';
 const _4 = new Image();
-_4.src = '/images/p4.png';
+_4.src = './images/p4.png';
 const _5 = new Image();
-_5.src = '/images/p5.png';
+_5.src = './images/p5.png';
 const _6 = new Image();
-_6.src = '/images/p6.png';
+_6.src = './images/p6.png';
 const _7 = new Image();
-_7.src = '/images/p7.png';
+_7.src = './images/p7.png';
 const _8 = new Image();
-_8.src = '/images/p8.png';
+_8.src = './images/p8.png';
 
 
 
