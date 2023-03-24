@@ -203,15 +203,15 @@ var firstp;
 var playfield;
 
 const unrevieled = new Image();
-unrevieled.src = '/images/unrevieled.png';
+unrevieled.src = './images/unrevieled.png';
 const flag = new Image();
-flag.src = '/images/flag.png';
+flag.src = './images/flag.png';
 const exploded = new Image();
-exploded.src = '/images/exploded.png';
+exploded.src = './images/exploded.png';
 const mine = new Image();
-mine.src = '/images/mine.png';
+mine.src = './images/mine.png';
 const flagmissplaced = new Image();
-flagmissplaced.src = '/images/flagmissplaced.png';
+flagmissplaced.src = './images/flagmissplaced.png';
 
 const _0 = new Image();
 _0.src = './images/p0.png';
